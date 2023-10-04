@@ -34,6 +34,11 @@
   </body>
 </html>
 <script>
+navigator.serviceWorker.register("service-worker.js", {
+  scope: "./",
+})
+</script>
+<script>
   const stone = [
     [8, 10, 13, 26, 35],
     [9, 13, 16, 28, 30],
